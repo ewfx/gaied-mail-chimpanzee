@@ -97,7 +97,7 @@ def extract_text_from_eml(eml_path):
 
 def classify_request(file_path):
     # Set up Gemini API
-    genai.configure(api_key="AIzaSyCLXWQGONbfKLI12rWYo1mb2LqSM4j8PGc")
+    genai.configure(api_key="<REDACTED>")
     model = genai.GenerativeModel("gemini-2.0-flash")
     if file_path.endswith(".pdf"):
         text = extract_text_from_pdf(file_path)
