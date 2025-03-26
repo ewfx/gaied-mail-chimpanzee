@@ -34,6 +34,9 @@ Request Type:
    Possible sub request types: Inbound, Principal+Interest, Principal+Interest+Fee.
 7. Money Movement Outbound - If there is any money moving out from Wells Fargo.
    Possible sub request types: Outbound Timebound, Foreign Currency.
+8. Accounting - Account level transactions
+   Possible sub request types: Transfers, Consolidation
+9. Miscellany - Other requests not covered in request types 1-8
 
 Each email must fall into one of the above request types and sub-request types. 
 Decide the best one and provide an answer with an explanation. Return the response in the form of json having 3 key-value pair, keys are request, sub_request, explaination"""
