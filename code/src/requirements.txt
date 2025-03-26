@@ -1,0 +1,5 @@
+pdfplumber
+google_generativeai
+bs4
+google-cloud-storage
+google-cloud-vision
